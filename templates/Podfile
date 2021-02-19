@@ -1,0 +1,9 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+
+source 'http://10.250.6.6/wangyong_R21012/BaseSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target '__ProjectName__' do
+
+end
