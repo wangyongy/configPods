@@ -70,7 +70,7 @@ echo "打标签{$sdkName}:完成"
 echo "处理spec库:开始"
 pod spec lint $sdkName.podspec  --allow-warnings
 echo "spec push..."
-pod repo push BaseSpecs $sdkName.podspec  --allow-warnings
+pod repo push PrivatePods $sdkName.podspec  --allow-warnings
 echo "处理spec库:完成"
 
 
